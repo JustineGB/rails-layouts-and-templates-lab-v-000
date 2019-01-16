@@ -8,6 +8,7 @@ class StoreAdminController < ApplicationController
   end 
   
   def orders
+    render :layout => "static"
   end 
   
   
